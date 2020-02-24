@@ -1,0 +1,30 @@
+mkdir -p ~/nav_ws/src
+cd ~/nav_ws/src
+catkin_init_workspace
+cd ~/nav_ws
+catkin_make
+
+cd ~/nav_ws/src
+
+######################
+Option 1:
+-----------
+git clone https://github.com/egutierrezhu/pocketnav.git
+
+Option 2:
+----------
+copy pocketnav
+######################
+
+cd ~/nav_ws
+catkin_make
+
+Terminal 1:
+$ cd ~/tiago_public_ws
+$ source ./devel/setup.bash
+$ roslaunch tiago_2dnav_gazebo tiago_navigation.launch public_sim:=true lost:=false
+
+Terminal 2:
+$ cd ~/nav_ws/
+$ source ./devel/setup.bash
+$ roslaunch pocketnav tiago_voice_navigation.launch

@@ -1,0 +1,68 @@
+Language model created by QuickLM on Mon Feb 24 12:55:55 EST 2020
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 5 sentences and 13 words
+
+\data\
+ngram 1=13
+ngram 2=17
+ngram 3=15
+
+\1-grams:
+-1.0934 </s> -0.3010
+-1.0934 <s> -0.2645
+-1.7924 BATHROOM -0.2645
+-1.7924 BEDROOM -0.2645
+-1.4914 GO -0.2868
+-1.3153 IS -0.2645
+-1.7924 KITCHEN -0.2645
+-1.7924 LIVING -0.2940
+-1.7924 PORCH -0.2645
+-1.7924 ROOM -0.2645
+-1.0934 THE -0.2645
+-1.4914 TO -0.2645
+-1.3153 WHERE -0.2795
+
+\2-grams:
+-0.6990 <s> GO 0.0000
+-0.5229 <s> WHERE 0.0000
+-0.3010 BATHROOM </s> -0.3010
+-0.3010 BEDROOM </s> -0.3010
+-0.3010 GO TO 0.0000
+-0.3010 IS THE -0.1461
+-0.3010 KITCHEN </s> -0.3010
+-0.3010 LIVING ROOM 0.0000
+-0.3010 PORCH </s> -0.3010
+-0.3010 ROOM </s> -0.3010
+-1.0000 THE BATHROOM 0.0000
+-1.0000 THE BEDROOM 0.0000
+-1.0000 THE KITCHEN 0.0000
+-1.0000 THE LIVING 0.0000
+-1.0000 THE PORCH 0.0000
+-0.3010 TO THE -0.2041
+-0.3010 WHERE IS 0.0000
+
+\3-grams:
+-0.3010 <s> GO TO
+-0.3010 <s> WHERE IS
+-0.3010 GO TO THE
+-0.7782 IS THE BATHROOM
+-0.7782 IS THE BEDROOM
+-0.7782 IS THE PORCH
+-0.3010 LIVING ROOM </s>
+-0.3010 THE BATHROOM </s>
+-0.3010 THE BEDROOM </s>
+-0.3010 THE KITCHEN </s>
+-0.3010 THE LIVING ROOM
+-0.3010 THE PORCH </s>
+-0.6021 TO THE KITCHEN
+-0.6021 TO THE LIVING
+-0.3010 WHERE IS THE
+
+\end\

@@ -1,0 +1,21 @@
+<package>
+  <name>pocketnav</name>
+  <version>0.1.0</version>
+  <description>
+    This package is a modified version of the simple wrapper around the pocketsphinx
+    speech recognizer create for Michael Ferguson (mike@vanadiumlabs.com), using 
+    gstreamer and a Python-based interface for localization and path planning. 
+  </description>
+  <author>Michael Ferguson</author>
+  <maintainer email="egh@cin.ufpe.br">Eulogio Gutierrez H</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>std_srvs</run_depend>
+  <run_depend>geometry_msgs</run_depend><!-- only needed for demos -->
+  <run_depend>gstreamer0.10-pocketsphinx</run_depend>
+  <run_depend>python-gst</run_depend>
+</package>
