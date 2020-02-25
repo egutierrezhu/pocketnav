@@ -13,10 +13,6 @@ To map the small_house.world, create the map with gmapping, save in ~/.pal/tiago
 ### References
 [1] Goebel, R. P. (2015). ROS by example. Lulu. com.
 
-[2] Pocketsphinx
-http://wiki.ros.org/pocketsphinx
-https://github.com/mikeferguson/pocketsphinx
+[2] Pocketsphinx. Available in: http://wiki.ros.org/pocketsphinx and https://github.com/mikeferguson/pocketsphinx
 
-[3] Mapping, localization and path planning
-http://wiki.ros.org/Robots/TIAGo/Tutorials/Navigation/Mapping
-http://wiki.ros.org/Robots/TIAGo/Tutorials/Navigation/Localization
+[3] Mapping, localization and path planning. Available in: http://wiki.ros.org/Robots/TIAGo/Tutorials/Navigation/Mapping and http://wiki.ros.org/Robots/TIAGo/Tutorials/Navigation/Localization
