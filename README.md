@@ -1,6 +1,6 @@
 # TIAGo Robot Navigation with Pocketsphinx
 
-The objective of this package is to integrate voice command with the laser-based localization and autonomous navigation with avoiding obstacles [3]. It is based on the simple ROS wrapper for using Pocketsphinx (via gstreamer) with ROS [2]. The commands implemented are the following: go to the kitchen, go to the living room, where is the bathroom, where is the bedroom and where is the porch.
+The objective of this package is to integrate voice command with the laser-based localization and autonomous navigation with avoiding obstacles [3]. It is based on the simple ROS wrapper for using Pocketsphinx (via gstreamer) with ROS [2].
 
 About the code, more details can be found in [1]. For simulation in Gazebo, copy small_house.world to ~/tiago_public_ws/src/pal_gazebo_worlds/worlds. After that, modify the tiago_mapping.launch and tiago_navigation.launch codes in ~/tiago_public_ws/src/tiago_simulation/tiago_2dnav_gazebo/launch:
 
