@@ -1,14 +1,13 @@
 #!/usr/bin/env python
 
 """
-  voice_cmd_vel.py is a simple demo of speech recognition.
-  You can control a mobile base using commands found
-  in the corpus file.
-
-  Based on the voice_cmd_vel.py script by Michael Ferguson in
-  the pocketsphinx ROS package.
+  The voice_nav.py is based on Michael Ferguson's voice_cmd_vel.py script in the
+  pocketsphinx ROS package and Patrick Goebel's nav_test.py script.
   
-  See http://www.ros.org/wiki/pocketsphinx
+  See 
+  
+  http://www.ros.org/wiki/pocketsphinx
+  https://github.com/pirobot/rbx1/blob/indigo-devel/rbx1_nav/nodes/nav_test.py
 """
 
 import roslib; roslib.load_manifest('pocketnav')
